@@ -108,7 +108,7 @@ label span{
 
 .section-inputs input{
     width: 80%;
-    border: none;
+    border: solid 1px transparent;
     padding: 10px 20px;
     border-radius: 10px;
     outline: none; 
@@ -124,20 +124,20 @@ label input{
     border-radius: 10px;
     outline: none; 
     font-size: 14pt;
-    transition: background-color 0.2s;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
     color: white;
 }
 
 label input:hover{
     background-color: #454045;
-    border: solid 1px #f3f3f4;
+    border: solid 1px #212121;
     box-shadow: 0 0 4px #eb50ff4f;
 }
 
 label input:focus{
     background-color: #212121;
-    border: solid 1px #f3f3f4;
-    box-shadow: 0 0 4px #eb50ff4f, border 0.2s, box-shadow 0.2s;
+    border: solid 1px #212121;
+    box-shadow: 0 0 4px #eb50ff4f;
 }
 
 .checkbox-label{
