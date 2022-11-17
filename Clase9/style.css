@@ -1,0 +1,18 @@
+/* El botón se traslade -5px en el eje de las Y
+Se añada una sombra
+El color de fondo del botón cambie
+El color del texto cambie
+Todo esto con una transición de 0.4s --> */
+
+
+.btn-modern{
+
+}
+
+.btn-modern:hover{
+    background-color: grey;
+    color: white;       
+    transform: translateY(-5px);
+    box-shadow: 5px 3px black;
+    transition: 0.4s;     
+}
